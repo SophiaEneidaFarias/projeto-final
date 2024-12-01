@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(0, 0, 0, 0.973);
+    color: rgb(53, 54, 53);
+   
+}
+
+button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(8, 5, 1, 0.973);
+}
+h1{
+    color: #ad42f0;
+}
+.texto {
+    color: #A9D18E;
+}
+body {
+    min-height: 100vh; /* Garante que o body ocupe a altura total da tela */
+    background-image: url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic2736537.webp?w=1600&h=900");
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a tela */
+    background-position: center; /*Centraliza a imagem de fundo dentro do elemento.*/
+    background-repeat: no-repeat; /*Impede que a imagem de fundo se repita. */
+    background-color: rgba(0, 0, 0, 0.836); /* Cor preta semi-transparente sobre a imagem */
+    background-blend-mode: overlay; /* Mistura a cor com a imagem */
+}

@@ -1,0 +1,25 @@
+body{
+    background-color:  rgb(151, 146, 218);
+    color: rgb(255, 255, 255);
+   
+}
+header{
+    text-align: center;
+    background-color: rgba(0, 174, 255, 0.082);
+}
+
+.hamsters{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+ .titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ .parceiro {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;      
+    width: 200px;   
+    height: auto;   
+    margin: 65px;  
+}

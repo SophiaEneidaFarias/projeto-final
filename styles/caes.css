@@ -1,0 +1,35 @@
+body{
+    background-color:  rgb(132, 120, 175);
+    color: rgb(187, 42, 42);
+   
+}
+header{
+    text-align: center;
+    background-color: rgba(0, 174, 255, 0.082);
+}
+
+.cao {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+ .titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ .parceiro-link {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 65px;
+    display: inline-block;
+    cursor: pointer; /* Indica que é clicável ​👇​ */
+}
+
+.parceiro-link img {
+    width: 200px; /* Mesma largura original */
+    height: auto;
+    transition: transform 0.3s ease; /* Suavizar animação */
+}
+
+.parceiro-link img:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}

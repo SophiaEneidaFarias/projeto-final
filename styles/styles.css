@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+    margin: 0px;
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Formatação do menu */
+nav#Menu {
+    text-align: center;
+    padding: 20px; /* Espaço ao redor do menu */
+}
+
+nav#Menu h1 {
+    font-size: 2.5rem; /* Aumentar o tamanho do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+/* CSS para a imagem do canto superior esquerdo ​🐾​​🐾​*/
+#menu-image { /*é o logo, que é a pata ​🐾​​🐾​*/
+    position: fixed; /* A imagem ficará fixa no canto superior esquerdo */
+    top: 0;          /* Coloca a imagem no topo */
+    left: 0;         /* Coloca a imagem à esquerda */
+    width: 50px;     /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;    /* Mantém a proporção original da imagem */
+    margin: 10px;    /* Adiciona um pequeno espaçamento ao redor da imagem */
+    z-index: 1000;   /* Garante que a imagem apareça acima de outros elementos */
+}
+.menu1 {
+    background-color: #FFB957;
+    border-radius: 4px; /* Cantos arredondados ​🙃​​ */
+    font-size: 1rem; /* Tamanho do texto nos botões */
+    padding: 10px 20px; /* Espaço interno dos botões */
+    margin: 10px; /* Espaçamento entre os botões */
+    border: none; /* Remover borda padrão */
+    cursor: pointer; /* Mostra o ponteiro como cursor */
+    transition: all 0.3s ease; /* Suavizar transições */
+}
+
+.menu1:hover {
+    background-color: #FF9E3D; /* Alteração de cor ao passar o mouse */
+    transform: scale(1.1); /* Aumentar o botão ao passar o mouse (demorei pra descobrir esses​🥹​) */
+}
+
+a {
+    text-decoration: none;
+}

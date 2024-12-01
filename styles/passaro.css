@@ -1,0 +1,23 @@
+body {
+    background-color:  rgb(224, 167, 215);
+    color: rgb(133, 61, 27);
+}
+.passaro {
+    color: rgb(24, 16, 12);
+    text-align: center;
+}
+.titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ header{
+    text-align: center;
+    background-color: rgba(255, 123, 0, 0.103);
+}
+.parceiro {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;      
+    width: 200px;   
+    height: auto;   
+    margin: 65px;  
+}
